@@ -89,7 +89,7 @@ int main()
         motor (1,200);
     }
     ao();
-    enable_servos();
+    enable_servos(0); 
     set_servo_position(3,1000);
     msleep(1000);
     //out of Create Way
